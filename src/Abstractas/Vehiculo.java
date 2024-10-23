@@ -47,9 +47,9 @@ public abstract class Vehiculo {
         this.combustible = combustible;
     }
 
-    protected abstract void Encender();
-    protected abstract  void Apagar();
-    protected abstract void mostrarInformacion();
+    public abstract void Encender();
+    public abstract  void Apagar();
+    public abstract void mostrarInformacion();
 
     public String abastecerCombustible(){
 
