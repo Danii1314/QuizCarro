@@ -14,6 +14,11 @@ public class Main {
         moto.Encender();
         moto.mostrarInformacion();
         CarroElectrico carroElectrico=new CarroElectrico("Tesla","ModelX","Bateria");
+        carroElectrico.Apagar();
+        carroElectrico.Encender();
+        carroElectrico.mostrarInformacion();
+        carroElectrico.niveldebateria();
+        carroElectrico.cargarBateria();
 
         System.out.println();
 
